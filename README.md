@@ -65,11 +65,10 @@ php artisan storage:link
 ```bash
 php artisan serve
 ```
-
 ## 🔐 User Registration
 Users can register an account by visiting the `/register` route. Once registered, they gain full access to the management dashboard.
 
-```
+
 🔐 Authentication & User Access
 The system uses Laravel Breeze for secure access control.
 
