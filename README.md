@@ -66,6 +66,14 @@ php artisan storage:link
 php artisan serve
 
 ```
+🔐 Authentication & User Access
+The system uses Laravel Breeze for secure access control.
+
+Registration: New administrators can create an account by navigating to /register.
+
+Access Control: All core modules (Businesses, Imports, Duplicates, and Reports) are protected by the auth middleware. Unauthenticated users will be redirected to the login page.
+
+Profile Management: Users can update their name, email, and password via the /profile section accessible from the top-right navigation dropdown.
 
 ---
 
